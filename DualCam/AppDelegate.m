@@ -9,8 +9,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	dualCamViewController = [[DualCamViewController alloc] init];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(windowDidResize:) name:NSWindowDidEndLiveResizeNotification object:self.window];
+
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(windowDidResize:) name:NSWindowDidEndLiveResizeNotification object:self.window];
 	
 	cam1 = [[CamView alloc] init];
 	[self.window.contentView addSubview:cam1];
@@ -44,19 +44,19 @@
 }
 
 - (void)windowDidResize:(NSNotification *)notification {
-    NSRect cam1Bounds = [self.window.contentView bounds];
-    cam1Bounds.size.height /= 2;
-    cam1.frame = cam1Bounds;
-    [cam1 setup];
-    
-    NSRect cam2Bounds = [self.window.contentView bounds];
-    cam2Bounds.size.height /= 2;
-    cam2Bounds.origin.y = cam1Bounds.size.height;
-    cam2.frame = cam2Bounds;
-    [cam2 setup];
-    
-    [cam1->previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
-    [cam2->previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
+	NSRect cam1Bounds = [self.window.contentView bounds];
+	cam1Bounds.size.height /= 2;
+	cam1.frame = cam1Bounds;
+	[cam1 setup];
+	
+	NSRect cam2Bounds = [self.window.contentView bounds];
+	cam2Bounds.size.height /= 2;
+	cam2Bounds.origin.y = cam1Bounds.size.height;
+	cam2.frame = cam2Bounds;
+	[cam2 setup];
+	
+	[cam1->previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
+	[cam2->previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
 }
 
 @end

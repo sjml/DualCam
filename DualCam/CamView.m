@@ -10,10 +10,10 @@
 		
 		captureSession = [[AVCaptureSession alloc] init];
 		camList = [[NSMenu alloc] init];
-        
-        // with higher quality, the streams sometimes get out of sync with reality.
-        //      for our purposes, latency is more important than quality. 
-        captureSession.sessionPreset = AVCaptureSessionPresetLow;
+		
+		// with higher quality, the streams sometimes get out of sync with reality.
+		//      for our purposes, latency is more important than quality. 
+		captureSession.sessionPreset = AVCaptureSessionPresetLow;
 		
 		NSArray* devs = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
 		for (id dev in devs) {

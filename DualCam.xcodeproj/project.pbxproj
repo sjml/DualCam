@@ -11,21 +11,10 @@
 		341AB7401AE9387F00D5D30A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 341AB73F1AE9387F00D5D30A /* main.m */; };
 		341AB7421AE9387F00D5D30A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341AB7411AE9387F00D5D30A /* Images.xcassets */; };
 		341AB7451AE9387F00D5D30A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341AB7431AE9387F00D5D30A /* MainMenu.xib */; };
-		341AB7511AE9387F00D5D30A /* DualCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341AB7501AE9387F00D5D30A /* DualCamTests.m */; };
 		341AB75C1AE938AE00D5D30A /* CamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341AB75B1AE938AE00D5D30A /* CamView.m */; };
 		341AB7601AE938D400D5D30A /* DualCamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341AB75E1AE938D400D5D30A /* DualCamViewController.m */; };
 		341AB7611AE938D400D5D30A /* DualCamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341AB75F1AE938D400D5D30A /* DualCamViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		341AB74B1AE9387F00D5D30A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 341AB72F1AE9387F00D5D30A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 341AB7361AE9387F00D5D30A;
-			remoteInfo = DualCam;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		341AB7371AE9387F00D5D30A /* DualCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,9 +24,6 @@
 		341AB73F1AE9387F00D5D30A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		341AB7411AE9387F00D5D30A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		341AB7441AE9387F00D5D30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		341AB74A1AE9387F00D5D30A /* DualCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		341AB74F1AE9387F00D5D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		341AB7501AE9387F00D5D30A /* DualCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DualCamTests.m; sourceTree = "<group>"; };
 		341AB75A1AE938AE00D5D30A /* CamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamView.h; sourceTree = "<group>"; };
 		341AB75B1AE938AE00D5D30A /* CamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamView.m; sourceTree = "<group>"; };
 		341AB75D1AE938D400D5D30A /* DualCamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualCamViewController.h; sourceTree = "<group>"; };
@@ -53,13 +39,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		341AB7471AE9387F00D5D30A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -67,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				341AB7391AE9387F00D5D30A /* DualCam */,
-				341AB74D1AE9387F00D5D30A /* DualCamTests */,
 				341AB7381AE9387F00D5D30A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				341AB7371AE9387F00D5D30A /* DualCam.app */,
-				341AB74A1AE9387F00D5D30A /* DualCamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		341AB74D1AE9387F00D5D30A /* DualCamTests */ = {
-			isa = PBXGroup;
-			children = (
-				341AB7501AE9387F00D5D30A /* DualCamTests.m */,
-				341AB74E1AE9387F00D5D30A /* Supporting Files */,
-			);
-			path = DualCamTests;
-			sourceTree = "<group>";
-		};
-		341AB74E1AE9387F00D5D30A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				341AB74F1AE9387F00D5D30A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,24 +104,6 @@
 			productReference = 341AB7371AE9387F00D5D30A /* DualCam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		341AB7491AE9387F00D5D30A /* DualCamTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 341AB7571AE9387F00D5D30A /* Build configuration list for PBXNativeTarget "DualCamTests" */;
-			buildPhases = (
-				341AB7461AE9387F00D5D30A /* Sources */,
-				341AB7471AE9387F00D5D30A /* Frameworks */,
-				341AB7481AE9387F00D5D30A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				341AB74C1AE9387F00D5D30A /* PBXTargetDependency */,
-			);
-			name = DualCamTests;
-			productName = DualCamTests;
-			productReference = 341AB74A1AE9387F00D5D30A /* DualCamTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +115,6 @@
 				TargetAttributes = {
 					341AB7361AE9387F00D5D30A = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					341AB7491AE9387F00D5D30A = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 341AB7361AE9387F00D5D30A;
 					};
 				};
 			};
@@ -194,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				341AB7361AE9387F00D5D30A /* DualCam */,
-				341AB7491AE9387F00D5D30A /* DualCamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +144,6 @@
 				341AB7421AE9387F00D5D30A /* Images.xcassets in Resources */,
 				341AB7451AE9387F00D5D30A /* MainMenu.xib in Resources */,
 				341AB7611AE938D400D5D30A /* DualCamViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		341AB7481AE9387F00D5D30A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,23 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		341AB7461AE9387F00D5D30A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				341AB7511AE9387F00D5D30A /* DualCamTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		341AB74C1AE9387F00D5D30A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 341AB7361AE9387F00D5D30A /* DualCam */;
-			targetProxy = 341AB74B1AE9387F00D5D30A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		341AB7431AE9387F00D5D30A /* MainMenu.xib */ = {
@@ -366,42 +280,6 @@
 			};
 			name = Release;
 		};
-		341AB7581AE9387F00D5D30A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DualCamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualCam.app/Contents/MacOS/DualCam";
-			};
-			name = Debug;
-		};
-		341AB7591AE9387F00D5D30A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DualCamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualCam.app/Contents/MacOS/DualCam";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,14 +299,7 @@
 				341AB7561AE9387F00D5D30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		341AB7571AE9387F00D5D30A /* Build configuration list for PBXNativeTarget "DualCamTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				341AB7581AE9387F00D5D30A /* Debug */,
-				341AB7591AE9387F00D5D30A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

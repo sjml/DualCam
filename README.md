@@ -1,6 +1,8 @@
 DualCam
 =======
 
+![two cameras](https://raw.githubusercontent.com/sjml/DualCam/master/DualCam/Images.xcassets/AppIcon.appiconset/dualcams256.png)
+
 the most basic "look at two webcams at once" implementation you could possibly imagine
 
 * right-click to add a video source

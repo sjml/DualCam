@@ -1,33 +1,28 @@
 {
   "images" : [
     {
-      "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "dualcams16.png",
+      "size" : "16x16",
       "scale" : "1x"
     },
     {
-      "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "dualcams32.png",
+      "size" : "16x16",
       "scale" : "2x"
     },
     {
-      "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "dualcams32-1.png",
+      "size" : "32x32",
       "scale" : "1x"
     },
     {
-      "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "dualcams64.png",
+      "size" : "32x32",
       "scale" : "2x"
     },
     {
+      "idiom" : "mac",
       "size" : "128x128",
-      "idiom" : "mac",
-      "filename" : "dualcams128.png",
       "scale" : "1x"
     },
     {
@@ -39,19 +34,18 @@
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "dualcams256-1.png",
+      "filename" : "dualcams256.png",
       "scale" : "1x"
     },
     {
-      "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "dualcams512.png",
+      "size" : "256x256",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "dualcams512-1.png",
+      "filename" : "dualcams512.png",
       "scale" : "1x"
     },
     {

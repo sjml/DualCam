@@ -55,10 +55,9 @@
 	}
 	AVCaptureDeviceInput* cap = [AVCaptureDeviceInput deviceInputWithDevice:dev error:nil];
 	[captureSession addInput:cap];
+	[captureSession startRunning];
 	
 	previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-	
-	[captureSession startRunning];
 }
 
 @end
